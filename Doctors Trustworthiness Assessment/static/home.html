@@ -1,0 +1,186 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/static/script.js"></script>
+    <style>
+        body {
+            background-image: url('https://st4.depositphotos.com/23984968/25107/i/450/depositphotos_251074692-stock-photo-abstract-blue-medical-background-doctor.jpg');
+            background-size: cover;
+            /* Adjust the background size as needed */
+            background-repeat: no-repeat;
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid" >
+        <div class="row justify-content-center">
+            <div class="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
+
+                <br><br>
+                <h2 id="heading">Welcome!!</h2>
+
+                <form id="msform">
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                        <li class="active" id="account"><strong>Personal</strong></li>
+                        <li id="personal"><strong>Professional</strong></li>
+                        <li id="payment"><strong>Demographic</strong></li>
+                        <li id="confirm"><strong>Social</strong></li>
+                    </ul>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> <br> <!-- fieldsets -->
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Personal Information:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 1 - 4</h2>
+                                </div>
+                            </div> <label class="fieldlabels">Name: *</label> <input type="text" name="name"
+                                placeholder="Name" required /> <label class="fieldlabels">Contact: *</label> <input
+                                type="text" name="contact" placeholder="Contact" required /> <label
+                                class="fieldlabels">Date of Birth: *</label> <input type="date" name="date_of_birth"
+                                placeholder="Date of Birth" required /> <label class="fieldlabels">Age: *</label> <input
+                                type="text" name="age" placeholder="Age" required /> <label class="fieldlabels">Gender:
+                                *</label> <label><input type="radio" name="gender" value="Male" required /> Male</label>
+                            <label><input type="radio" name="gender" value="Female" required /> Female</label>
+
+                        </div> <input type="button" name="next" class="next action-button" value="Next" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Professional Information:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 2 - 4</h2>
+                                </div>
+                            </div>
+                            <label for="qualification">Qualification:</label><br />
+                            <div class="d-flex justify-content-around">
+                                <div>
+                                    <input type="radio" id="mbbs" name="qualification" value="mbbs" required />MBBS
+                                </div>
+                                <div>
+                                    <input type="radio" id="dm" name="qualification" value="dm" required /> D.M
+                                </div>
+                                <div>
+                                    <input type="radio" id="md" name="qualification" value="md" required />MD
+                                </div>
+                            </div>
+                            <label for="specialization">Specialization:</label><br />
+                            <select id="specialization" class="form-control" name="specialization" required>
+                                <option value="ENT">ENT</option>
+                                <option value="Orthopedics">Orthopedics</option>
+                                <option value="Gynaecologist">Gynaecologist</option>
+                                <option value="general surgeon">General surgeon</option>
+                                <option value="cardiologist">Cardiologist</option>
+                                <option value="Neurologist">Neurologist</option>
+                                <option value="Dermatologist">Dermatologist</option>
+                                <option value="internal medicine">Internal Medicine</option>
+                                <option value="pediatrics">Pediatrics</option>
+                                <option value="geriatrics">Geriatrics</option>
+                                <option value="pediatrician">pediatrician</option>
+                                <option value="gastroenterologist">Gastroenterologist</option>
+                                <option value="urology">Urology</option>
+                                <option value="Anesthesiology">Anesthesiology</option>
+                                <option value="Geneticist">Geneticist</option>
+                                <option value="Infectious disease physician">Infectious disease physician</option>
+                                <option value="Family physician">Family physician</option>
+                                <option value="Pathologist">Pathologist</option>
+                                <option value="Plastic surgeon">Plastic surgeon</option>
+                            </select>
+                            <label for="university">University:</label><br />
+                            <select id="university" class="form-control" name="university" required>
+                                <option value="Tyre1">Tyre1</option>
+                                <option value="Tyre2">Tyre2</option>
+                                <option value="Tyre3">Tyre3</option>
+                            </select>
+                            <label class="fieldlabels">Experience: </label>
+                            <input type="text" name="experience" placeholder="Experience" />
+                            <label for="seniority">Seniority:</label><br />
+                            <select id="seniority" class="form-control" name="seniority" required>
+                                <option value="Junior">Junior</option>
+                                <option value="Senior">Senior</option>
+                            </select>
+
+                        </div>
+                        <input type="button" name="next" class="next action-button" value="Next" />
+                        <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Demographic Information</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 3 - 4</h2>
+                                </div>
+                            </div>
+                            <label for="city">City:</label>
+                            <select id="city" name="city" required>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Nagpur">Nagpur</option>
+                                <option value="Nashik">Nashik</option>
+                                <option value="Aurangabad">Aurangabad</option>
+                                <option value="Amravati">Amravati</option>
+                                <option value="Kolhapur">Kolhapur</option>
+                                <option value="Solapur">Solapur</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Thane">Thane</option>
+                                <option value="Palghar">Palghar</option>
+                            </select>
+                            <br><br>
+                            <label for="area">Area:</label>
+                            <label class="mr-4"> <input type="radio" id="urban" name="area" value="urban" required />
+                                Urban</label>
+                            <label><input type="radio" id="rural" name="area" value="rural" required /> Rural </label>
+
+                        </div>
+                        <input type="button" name="next" class="next action-button" value="Next" />
+                        <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Social Information</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 4 - 4</h2>
+                                </div>
+                            </div> <br><br>
+                            <label class="fieldlabels">No of recommendation: *</label>
+                            <input type="text" name="followers" placeholder="Enter recommendation" required /> <br>
+                        </div>
+                        <input type="submit" name="submit" class="action-button" value="submit" />
+                        <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                        <br><br><br><br>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

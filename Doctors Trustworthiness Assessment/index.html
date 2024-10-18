@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="static/patient.css">
+    <script src="static/patient.js" defer></script>
+
+    <style>
+        body {
+            background-image: url('https://st4.depositphotos.com/23984968/25107/i/450/depositphotos_251074692-stock-photo-abstract-blue-medical-background-doctor.jpg');
+            background-size: cover; /* Adjust the background size as needed */
+            background-repeat: no-repeat;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif; /* Specify a font for better cross-browser compatibility */
+        }
+        .login-register-btn1{
+
+            position: absolute;
+            top: 50px;
+            right: 40px;
+            background-image: linear-gradient(125deg, #a72879, #064497);
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 16px;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+        .login-register-btn {
+            position: absolute;
+            top: 50px;
+            left: 40px;
+            background-image: linear-gradient(125deg, #a72879, #064497);
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 16px;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+    
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .dropdown {
+            position: relative;
+            margin-right: 10px; /* Adjust margin as needed */
+        }
+
+        .select {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            display: none;
+            list-style: none;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 0;
+            margin: 0;
+            width: 300px; /* Adjust the width as needed */
+        }
+
+        .menu li {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .dropdown:hover .menu {
+            display: block;
+        }
+
+        .doctor button {
+            background-image: linear-gradient(125deg, #a72879, #064497);
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 16px;
+            border: none;
+            width: 200px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="login-register-btn" name="btnlogin">Doctor Login</button>
+    <button class="login-register-btn1" name="btnlogin">Patient Login</button>
+
+    <section class="doctor">
+        <h4 class="title">List Of Doctors</h4>
+
+        <div class="flex-container">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Select</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li value="Mumbai">Mumbai</li>
+                    <li value="Nagpur">Nagpur</li>
+                    <li value="Nashik">Nashik</li>
+                    <li value="Aurangabad">Aurangabad</li>
+                    <li value="Amravati">Amravati</li>
+                    <li value="Kolhapur">Kolhapur</li>
+                    <li value="Solapur">Solapur</li>
+                    <li value="Pune">Pune</li>
+                    <li value="Palghar">Palghar</li>
+                </ul>
+            </div>
+
+            <button class="searchbtn" id="nextBtn">Submit</button>
+        </div>
+    </section>
+    <section class="doctor">
+        <table id="doctorTable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Trust Score</th>
+            </tr>
+          </thead>
+          <tbody id="doctorList"></tbody>
+        </table>
+      </section>
+   
+</body>
+
+</html>

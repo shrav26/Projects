@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.doctor .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    margin-top: 0em;
+    padding-bottom: 20px;
+    color: #5543ca;
+    background: linear-gradient(to right, #f4524d 0%, #5543ca  100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#nextButton{
+    background-image: linear-gradient(125deg, #a72879, #064497);
+                        color: #fff; 
+                        justify-content: right;
+                        margin-top: 50px;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        font-size: 16px;
+                        margin: 100px;
+                        padding: 8px 16px;
+                        border: none;
+                        width: 200px;
+}
+
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+body {
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.dropdown {
+
+    min-width: 15em;
+    position: relative;
+    margin: 2em;
+}
+
+.select {
+    width: 300px;
+    background: #2a2f3b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.select-clicked {
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+
+.select:hover {
+    background: #323741;
+}
+
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.menu {
+
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 4em;
+    left: 80%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background: #2a2d35;
+}
+
+.active {
+    background: #23242a;
+}
+
+.menu-open {
+    display: block;
+    opacity: 1;
+}
+/* Add this CSS to your existing styles */
+
+#doctorTable {
+    width: 200%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add some space between the dropdown and the table */
+  }
+  
+  #doctorTable th, #doctorTable td {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ddd;
+    border-color: #ddd;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  #doctorTable th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Additional styling for better visibility */
+  #doctorTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #doctorTable tbody tr:hover {
+    background-color: #ddd;
+  }
+  

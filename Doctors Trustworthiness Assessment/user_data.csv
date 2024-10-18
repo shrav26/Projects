@@ -1,0 +1,67 @@
+id,name,contact,date_of_birth,age,gender,qualification,specialization,university,experience,seniority,country,area,followers,Final Trust %
+1,Suruchi Mandrekar,4454366784,1974-01-01,48,female,2,Family physician,3,27,3,Pune,2,94,70.11%
+2,Milind Kulkarni,8756362748,1989-06-09,34,male,2,Family physician,2,18,3,Pune,2,227,87.78%
+3,Rohit Shool,8655342234,1990-12-14,33,male,2,general surgeon,2,18,2,Pune,1,74,52.59%
+5,Ashish Shrivastav,7345432245,1975-08-03,47,male,2,gastroenterologist,3,23,3,Pune,2,23,70.03%
+6,Harshad Patankar,8674992345,1973-06-04,50,male,2,Orthopedics,3,24,3,Pune,1,26,35.03%
+7,B A Kadam,8699012345,1953-01-27,70,male,2,Orthopedics,2,46,3,Pune,2,552,88.17%
+8,Shruti  Vadke,7123456789,1987-10-15,36,female,2,Neurologist,2,11,2,Pune,1,32,52.54%
+10,Meenal Agarwal,7345678901,1973-06-26,50,female,3,Geneticist,3,21,3,Pune,2,90,17.61%
+11,Ashwin Shah,7567890123,1982-07-09,41,male,2,Family physician,2,16,2,Kolhapur,1,26,52.53%
+12,Girish Deshpande,7896503412,1965-01-29,57,male,2,Orthopedics,2,33,3,Kolhapur,1,84,52.60%
+13,Maheshwari Jadhav,9344567184,1988-04-09,35,female,3,pediatrics,3,6,2,Kolhapur,2,15,77.02%
+14, Amol Khot,8675339785,1979-10-05,49,male,3,gastroenterologist,2,14,2,Kolhapur,1,32,17.54%
+15, Amit Patil,9088647236,1976-03-27,47,male,2,Dermatologist,2,23,3,Kolhapur,2,50,87.56%
+17,Priyadarshini Jain,8758536567,1976-03-08,46,female,3,Gynaecologist,2,17,3,Kolhapur,2,33,26.29%
+18,Indraneel Jadhav,9875673351,1983-05-30,40,male,2,Gynaecologist,2,12,2,Kolhapur,1,130,52.66%
+19,Mayuresh Deshpande,8779056432,1976-07-31,47,male,3,Plastic surgeon,2,17,3,Kolhapur,2,30,26.29%
+20,Narendra Basarge,8769386124,1962-11-29,60,male,3,urology,2,33,3,Kolhapur,2,64,26.33%
+21, Seema Gupta,9977465297,1985-07-30,38,female,3,ENT,2,10,2,Thane,1,27,70.03%
+22,Prajakta Ahire,8775477352,1981-05-05,42,female,2,Gynaecologist,2,15,3,Thane,2,246,87.80%
+23,Bharat Jain,8842759916,1978-12-22,45,male,3,cardiologist,2,18,3,Thane,2,11,26.26%
+24,Aman Jain,8867432081,1976-10-07,56,male,3,internal medicine,3,27,3,Thane,2,59,17.57%
+26,Chitaranjan Das,8733610729,1975-11-06,48,male,2,Anesthesiology,2,24,3,Thane,2,572,88.20%
+27,Kirti Sabnis,9986743528,1984-10-17,40,female,3,Infectious disease physician,3,13,3,Thane,1,99,8.87%
+29,Dermatologist,9866296350,1979-05-02,44,female,3,Dermatologist,2,18,3,Thane,2,1528,28.11%
+30,Jithin Raj,7933107528,1984-07-01,39,male,3,Dermatologist,2,12,2,Thane,1,27,17.53%
+31,Niteen Dhepe,9775849013,1973-02-19,50,Male,3,Dermatologist,3,23,3,Solapur,2,1194,18.95%
+32,Shashikant Avhad,8755472381,1983-08-27,40,male,2,Gynaecologist,2,12,2,Solapur,1,12,52.51%
+33,Manisha Oka,9698783329,1973-07-30,50,female,2,ENT,3,23,3,Solapur,2,88,70.11%
+38,Smita Chakote,9833725791,1970-07-31,53,female,3,Dermatologist,3,27,3,Solapur,2,190,17.73%
+39,Madhusudan Yemul,8809128046,1981-09-07,42,male,3,cardiologist,1,22,3,Solapur,1,83,43.85%
+40,Raviraj Gurav,9926582869,1978-01-23,45,male,2,internal medicine,2,13,3,Solapur,2,49,87.56%
+41,Monali Nistane,7784269378,1985-08-14,38,female,3,internal medicine,2,10,2,Amravati,2,20,78.77%
+45,Shailesh Jayade,9357012637,1973-03-09,50,male,3,cardiologist,3,18,2,Amravati,1,56,8.82%
+46,Nitin Datir,9566258104,1975-08-25,48,male,3,pediatrician,2,22,3,Amravati,1,120,17.65%
+47,Amit Kavimandan,9968365828,1977-02-20,46,male,3,gastroenterologist,2,16,3,Amravati,1,788,18.46%
+48,Vishal Bahekar,9135792468,1977-07-29,46,male,3,urology,1,18,3,Amravati,2,63,52.58%
+49,Pravinkumar Mohod,98567385921,1975-09-24,48,male,3,general surgeon,1,20,3,Amravati,1,57,43.82%
+50,Sumit Tarekar,9573759265,1988-08-08,35,male,3,Orthopedics,2,8,2,Amravati,1,47,73.56%
+51,Gulshan Tolani,9075643211,1980-07-25,43,Male,2,General Physician,3,8,3,Nashik,2,600,70.73%
+52,Swati Karkare,9175553211,1970-05-12,53,Female,3,Dentist,1,31,3,Nashik,2,900,53.59%
+53,Madhura Aphale,7057116512,1975-01-15,48,Female,2,Dentist,3,18,3,Nashik,2,550,70.67%
+54,Malagaonkar Narhari Sambhaji,9076983537,1972-08-15,51,Male,2,Gynecologist,2,19,3,Nashik,2,850,88.53%
+55,Pallavi Untwal,9075456321,1970-03-05,53,Female,2,Gynecologist,3,13,3,Nashik,2,675,70.82%
+56,Samta Gorhe,9075343211,1977-01-25,46,Female,2,Homeopathy,2,18,3,Nashik,2,905,88.60%
+60,Vijay Ghuge,9023754411,1974-03-12,49,Male,2,Neurologist,3,12,3,Nashik,2,500,70.61%
+61,Reshma Phulwar,8075233211,1965-01-16,58,Female,3,Dentist,2,27,3,Mumbai,2,614,27.00%
+64,Vicky Jain,9472333937,1976-11-04,46,Male,2,Plastic Surgeon,3,17,3,Mumbai,2,500,70.61%
+65,Siddharth Relan ,7082642393,1967-01-16,56,Male,2,Ophthalmologist,3,25,3,Mumbai,2,1053,71.28%
+68,Chirag Sadiwala,7075952458,1978-11-06,58,Male,2,General Surgeon,2,15,3,Mumbai,2,456,88.05%
+69,Ranjan Burnwal,8075284267,1976-08-13,57,Male,2,Orthopedist,3,14,3,Mumbai,2,654,70.80%
+70,Ravindra Ghule,8482237078,1974-06-28,49,Male,2,Cardiologist,3,16,3,Mumbai,2,876,71.06%
+73,Saumya Rathi,7482562395,1979-09-26,44,Female,2,Gynecologist,3,10,3,Nagpur,2,387,70.47%
+76,Sanjay Darda,99846264818,1970-11-03,53,Male,2,General Physician,2,33,3,Nagpur,2,1234,89.00%
+77,Nivedita Phadnaik,7076129972,1979-09-23,44,Female,2,General Surgeon,3,19,3,Nagpur,2,1043,71.27%
+83,Abhinav Chhabra,7042549873,1980-08-20,43,Male,2,Cardiologist,2,9,3,Aurangabad,2,864,88.55%
+84,Shyam Mahajan,7492745274,1966-07-29,57,Male,3,Dentist,3,40,3,Aurangabad,2,1245,19.01%
+85,Uma Patil,9382645734,1975-07-29,48,Female,2,Dentist,3,22,3,Aurangabad,2,949,71.15%
+88,Antara Deshmukh,8947128543,1978-08-18,45,Female,2,Pediatrician,2,15,3,Aurangabad,2,984,88.70%
+91,Vishal Diddi,9876543215,1978-04-30,45,male,3,general surgeon,2,17,2,Palghar,1,47,17.56%
+92,Aditi Agrawal,9582658287,1978-09-24,45,female,3,general surgeon,2,18,2,Palghar,2,135,26.41%
+93,Bhavik Shah,9783658262,1980-11-27,43,male,3,ENT,1,17,2,Palghar,1,120,43.90%
+94,Ayush Sharma,7822918571,1979-01-21,44,male,2,Orthopedics,2,15,2,Palghar,1,35,52.54%
+95,Ankesh Sahetya,9784778139,1980-12-25,43,male,3,Gynaecologist,3,15,2,Palghar,1,1346,10.39%
+96,Ravindra Ghule,8685739135,1978-05-29,45,male,3,cardiologist,2,16,2,Palghar,1,80,17.60%
+97,Sanjeev Ahuja,9686264016,1968-01-29,55,male,3,pediatrician,2,27,3,Palghar,1,50,17.56%
+100,Vicky Jain,9783759730,1974-03-08,49,male,3,Plastic surgeon,3,17,3,Palghar,1,107,8.88%
